@@ -6,7 +6,7 @@ Because of the ultra fast inference speed, the small speech separation Transform
 In this work,  we elaborate Teacher Student learning for better training of the ultra fast speech separation model. 
 The small student model is trained to reproduce the separation results  of  a  large  pretrained  teacher  model.
 
-For a detailed description and experimental results, please refer to our paper: [Ultra Fast Speech Separation Model with Teacher Student Learning]().
+For a detailed description and experimental results, please refer to our paper: [Ultra Fast Speech Separation Model with Teacher Student Learning](https://www.microsoft.com/en-us/research/uploads/prod/2021/08/Ultra_Fast_Speech_Separation_Model_with_Teacher_Student_Learning.pdf) (Accepted by INTERSPEECH 2021).
 
 ## Environment
 python 3.6.9, torch 1.7.1
@@ -56,8 +56,8 @@ python 3.6.9, torch 1.7.1
     The separated speech can be found in the directory 'separated_speech/7ch/utterances_with_${MODEL_NAME}'
 
 ## Citation
-If you find our work useful, please cite [our paper]():
-```bibtex
+If you find our work useful, please cite [our paper](https://www.microsoft.com/en-us/research/uploads/prod/2021/08/Ultra_Fast_Speech_Separation_Model_with_Teacher_Student_Learning.pdf).
+<!-- ```bibtex
 @article{CSS_with_TSTransformer,
 }
-```
+``` -->
